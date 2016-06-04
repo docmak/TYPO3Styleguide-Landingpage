@@ -18,3 +18,8 @@
 /index.php
 # Ignore temp directory.
 /typo3temp/
+
+/Private/node_modules
+/Public/Styles
+/Public/JavaScript
+
