@@ -1,3 +1,5 @@
+@import "../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
 /*Variables*/
 @import "Base/Variables.scss";
 @import "Base/Mixins.scss";
@@ -5,8 +7,6 @@
 
 /* Base */
 @import "Base/base.scss";
-@import "Base/Bootstrap.scss";
-
 
 
 /*Modules*/
