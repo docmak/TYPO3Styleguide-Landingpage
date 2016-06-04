@@ -22,5 +22,5 @@
 /Private/node_modules
 /Public/Styles/main.css
 /Public/JavaScript
-.sass-cache/
+/Private/.sass-cache
 
