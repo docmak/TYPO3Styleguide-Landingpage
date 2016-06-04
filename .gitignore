@@ -20,6 +20,7 @@
 /typo3temp/
 
 /Private/node_modules
-/Public/Styles
+/Public/Styles/main.css
 /Public/JavaScript
+.sass-cache/
 
