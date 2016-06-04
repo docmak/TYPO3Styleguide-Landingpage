@@ -3,12 +3,15 @@
   background-size: cover;
   background-position: center;
   min-height: 400px;
+  margin-bottom: 20px;
 }
 .masthead-hero-inner {
   background-color: rgba(0, 0, 0, .7);
   margin-top: 9rem;
   width: 450px;
   padding: 2.025rem;
+  max-width: 100%;
+  
   .heading-hero{
     font-size: 1.3rem;
     font-weight: normal;
@@ -30,4 +33,10 @@
   width: 200px;
   height: auto;
   margin-top: 2rem;
+}
+
+@media screen and (min-width: $screen-sm-min) {
+  .masthead-bg {
+    margin-bottom: 30px;
+  }
 }
