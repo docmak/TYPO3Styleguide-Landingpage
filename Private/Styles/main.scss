@@ -8,6 +8,17 @@
 /* Base */
 @import "Base/base.scss";
 
+@import "Base/default/animation";
+@import "Base/default/forms";
+@import "Base/default/global-classes";
+@import "Base/default/headings";
+@import "Base/default/links";
+@import "Base/default/lists";
+@import "Base/default/main";
+@import "Base/default/media";
+@import "Base/default/tables";
+@import "Base/default/text";
+
 
 /*Modules*/
 @import "Module/module.scss";
