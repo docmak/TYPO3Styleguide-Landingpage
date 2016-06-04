@@ -1,20 +1,86 @@
-.test{
-  text-align: center;
-}
-
-.row {
-	paddin-top: 10px;
-	padding-bottom: 10px;
-}
 .col-border {
 	border: 1px solid $gray-lighter;
 	padding: 20px;
+	text-align: center;
 }
 
 .top-border-orange {
 	border-top: 8px solid $typo3-orange;
 }
 
+
+h2 ~ h3 {
+	margin-bottom: 0;
+}
+
 .typo3.btn {
 	border-radius: 0;
+	margin-top: 40px;
+	min-width: 100%;
+}
+
+.icon > img {
+	max-height: 80px;
+	min-height: 80px;
+	max-width: 80px;
+}
+
+.col-sm-4 {
+	margin-bottom: 20px;
+}
+
+.row-horizontal {
+	margin-bottom: 20px;
+}
+
+.row-horizontal .col-sm-4 {
+	margin-bottom: 0;
+}
+
+@media screen and (min-width: $screen-sm-min) {
+
+	.row-horizontal {
+		//padding-top: 10px;
+		//padding-bottom: 10px;
+			margin-bottom: 30px;
+	}
+	
+	.typo3.btn {
+		min-width: 50%;
+	}
+
+	.col-sm-4 {
+		//margin-bottom: 0;
+	}
+
+	.row-horizontal .row {
+		display: flex;
+		flex-wrap: wrap;
+
+		.col-sm-4 {
+			display: flex;
+			flex-direction: column;	
+
+			&:last-child {
+				flex-direction: row;
+				justify-content: center;
+
+				.btn.typo3 {
+					align-self: flex-end;
+				}
+			}
+
+			.col-border {
+				height: 100%;
+			}
+
+			.icon {
+				display: flex;
+			    align-items: center;
+			    justify-content: center;
+			    flex: 1;
+			}  
+		}
+	}
+
 }
