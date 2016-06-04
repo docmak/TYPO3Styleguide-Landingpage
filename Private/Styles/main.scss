@@ -8,6 +8,8 @@
 /* Base */
 @import "Base/base.scss";
 
+
+/*TYPO3 Styleduide Base*/
 @import "Base/default/animation";
 @import "Base/default/forms";
 @import "Base/default/global-classes";
@@ -18,6 +20,16 @@
 @import "Base/default/media";
 @import "Base/default/tables";
 @import "Base/default/text";
+
+/*TYPO3 Styleduide Modules*/
+
+@import "Module/objects/accordion";
+@import "Module/objects/article";
+@import "Module/objects/blocks";
+@import "Module/objects/buttons";
+@import "Module/objects/carousels";
+@import "Module/objects/comments";
+@import "Module/objects/footer";
 
 
 /*Modules*/
