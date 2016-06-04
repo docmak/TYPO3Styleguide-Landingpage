@@ -80,11 +80,26 @@ footer {
 		//padding-bottom: 10px;
 			margin-bottom: 30px;
 	}
-	
-	.typo3.btn {
-		min-width: 50%;
-	}
 
+	.row {
+		display: flex;
+		flex-wrap: wrap;
+
+		.col-border{
+			height: 100%;
+			display: flex;
+			flex-direction: column;
+
+			h3 {
+				flex: 1;
+			}
+
+			.btn {
+				align-self: center;
+			}
+		}
+	}
+	
 	.col-sm-4 {
 		//margin-bottom: 0;
 	}
@@ -119,4 +134,19 @@ footer {
 		}
 	}
 
+
+	.top-border-orange {
+		margin-bottom: 30px;
+
+		.col-sm-4, .col-sm-7 {
+			padding-top: 30px;
+		}
+	}
+
+}
+
+@media screen and (min-width: $screen-md-min) {
+	.typo3.btn {
+		min-width: 50%;
+	}
 }
