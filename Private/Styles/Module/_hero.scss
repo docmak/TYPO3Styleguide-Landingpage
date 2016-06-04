@@ -1,0 +1,33 @@
+.masthead-bg{
+  background-image: url("../Images/light-coffee-pen-working.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+}
+.masthead-hero-inner {
+  background-color: rgba(0, 0, 0, .7);
+  margin-top: 9rem;
+  width: 450px;
+  padding: 2.025rem;
+  .heading-hero{
+    font-size: 1.3rem;
+    font-weight: normal;
+    line-height: 120%;
+    font-family: "Share", "Helvetica", "Arial", sans-serif;
+    color: $typo3-orange;
+  }
+  .teaser-hero{
+    font-weight: normal;
+    font-size: 2.1rem;
+    line-height: 120%;
+    font-family: "Share", "Helvetica", "Arial", sans-serif;
+    color: $white;
+
+  }
+}
+
+.t3-logo{
+  width: 200px;
+  height: auto;
+  margin-top: 2rem;
+}
