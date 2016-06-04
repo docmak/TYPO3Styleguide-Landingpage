@@ -1,0 +1,12 @@
+default:
+  - 'build'
+
+w:
+  - 'build'
+  - 'watch'
+
+
+build:
+  - 'concat'
+  - 'uglify'
+  - 'compass'
