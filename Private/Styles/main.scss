@@ -1,2 +1,13 @@
+/*Variables*/
+@import "Base/Variables.scss";
+@import "Base/Mixins.scss";
+
+
+/* Base */
 @import "Base/base.scss";
+@import "Base/Bootstrap.scss";
+
+
+
+/*Modules*/
 @import "Module/module.scss";
