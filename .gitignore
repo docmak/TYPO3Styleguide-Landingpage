@@ -22,7 +22,12 @@
 /Private/node_modules
 /Public/Styles/main.css
 /Public/JavaScript
-/Private/.sass-cache
-.idea/*
+/Private/.sass-cache/
+
 /Public/Data/*
+
+################################################################################
+# Ignore IDE files
+################################################################################
+/.idea/
 
