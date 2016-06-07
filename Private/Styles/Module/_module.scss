@@ -85,10 +85,16 @@ footer {
 		display: flex;
 		flex-wrap: wrap;
 
+		.col-sm-4 {
+			flex: 1 1 0;
+			display: flex;
+		}
+
 		.col-border{
-			height: 100%;
+			min-height: 100%;
 			display: flex;
 			flex-direction: column;
+			flex: 1 1 0;
 
 			h3 {
 				flex: 1;
@@ -110,7 +116,8 @@ footer {
 
 		.col-sm-4 {
 			display: flex;
-			flex-direction: column;	
+			flex-direction: column;
+			flex: 1 1 0;	
 
 			&:last-child {
 				flex-direction: row;
@@ -140,6 +147,7 @@ footer {
 
 		.col-sm-4, .col-sm-7 {
 			padding-top: 30px;
+			display: block;
 		}
 	}
 
