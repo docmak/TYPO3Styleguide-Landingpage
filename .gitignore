@@ -23,6 +23,6 @@
 /Public/Styles/main.css
 /Public/JavaScript
 /Private/.sass-cache
-.idea
+.idea/*
 /Public/Data/*
 
