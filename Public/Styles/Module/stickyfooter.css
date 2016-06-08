@@ -1,0 +1,16 @@
+/* line 1, ../../../Private/Styles/Module/stickyfooter.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 5, ../../../Private/Styles/Module/stickyfooter.scss */
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -34px;
+  padding-bottom: 34px;
+}
+
+/* line 11, ../../../Private/Styles/Module/stickyfooter.scss */
+footer {
+  height: 34px;
+}
