@@ -3,7 +3,7 @@
  */
 
 // external js: isotope.pkgd.js
-jQuery(document).ready( function() {
+function startIsotope() {
     // init Isotopevar
     $grid = $('.grid').isotope({
         itemSelector: '.task',
@@ -53,4 +53,4 @@ jQuery(document).ready( function() {
             $( this ).addClass('is-checked');
         });
     });
-})
+}
