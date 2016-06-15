@@ -1,47 +1,81 @@
 .task{
-  &.assigned{
-    background-color: $grey-superlight;
-    max-height: 100px;
-    .task-info{
-      width: 69%;
-      float: left;
+  padding: 15px;
+  background-color: $grey-superlight;
+  border: solid 5px white;
+
+  .task-category{
+    height: 100px;
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    &.category-development{
+      background-color: green;
+      background-image: url("../Icons/categories/iconmonstr-code.svg");
     }
-    .task-category{
+  }
+
+  .task-title{
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .task-due-date{
+    margin-left: 55px;
+    color: $grey-light;
+  }
+
+
+
+  &.assigned{
+    min-height: 30%;
+
+    .task-category {
       height: 30px;
       width: 30px;
       margin-right: 25px;
       float: left;
       display: block;
-      &.category-development{
+      background-position: center;
+      background-repeat: no-repeat;
+      &.category-development {
         background-color: green;
         background-image: url("../Icons/categories/iconmonstr-code.svg");
-        background-position: center;
-        background-repeat: no-repeat;
+
       }
     }
-    .task-title{
-      font-size: 18px;
-      font-weight: 600;
+
+    .task-info{
+      width: 69%;
+      float: left;
     }
-    .task-due-date{
-      margin-left: 55px;
-    }
+
+
+
     .agency{
       width: 30%;
       float: right;
+
       .task-agency-logo{
         width: 25%;
         height: auto;
         float: right;
       }
+
       .task-agency-name{
         float: left;
         width: 70%;
+        margin-bottom: 5px;
       }
     }
 
   }
-  padding: 10px;
+
 
 }
 
