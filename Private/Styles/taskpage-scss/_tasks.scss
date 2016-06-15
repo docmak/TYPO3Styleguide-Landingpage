@@ -1,0 +1,47 @@
+.task{
+  &.assigned{
+    background-color: $grey-superlight;
+    max-height: 100px;
+    .task-info{
+      width: 69%;
+      float: left;
+    }
+    .task-category{
+      height: 30px;
+      width: 30px;
+      margin-right: 25px;
+      float: left;
+      display: block;
+      &.category-development{
+        background-color: green;
+        background-image: url("../Icons/categories/iconmonstr-code.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    }
+    .task-title{
+      font-size: 18px;
+      font-weight: 600;
+    }
+    .task-due-date{
+      margin-left: 55px;
+    }
+    .agency{
+      width: 30%;
+      float: right;
+      .task-agency-logo{
+        width: 25%;
+        height: auto;
+        float: right;
+      }
+      .task-agency-name{
+        float: left;
+        width: 70%;
+      }
+    }
+
+  }
+  padding: 10px;
+
+}
+
