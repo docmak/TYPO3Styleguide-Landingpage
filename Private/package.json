@@ -10,6 +10,8 @@
     "grunt-contrib-uglify": "~0.5.1",
     "grunt-contrib-watch": "~0.6.1",
     "grunt-notify": "^0.4.1",
+    "handlebars": "^4.0.5",
+    "jquery-dateformat": "^1.0.3",
     "load-grunt-config": "^0.17.2",
     "load-grunt-tasks": "^3.2.0"
   },
