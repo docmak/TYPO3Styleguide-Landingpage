@@ -16,8 +16,24 @@
     margin-top: 10px;
     margin-bottom: 30px;
     &.category-development{
-      background-color: green;
+      background-color: white;
       background-image: url("../Icons/categories/iconmonstr-code.svg");
+    }
+    &.category-marketing{
+      background-color: white;
+      background-image: url("../Icons/categories/iconmonstr-speech-bubble.svg");
+    }
+    &.category-translation{
+      background-color: white;
+      background-image: url("../Icons/categories/iconmonstr-language.svg");
+    }
+    &.category-design{
+      background-color: white;
+      background-image: url("../Icons/categories/iconmonstr-paintbrush.svg");
+    }
+    &.category-text{
+      background-color: white;
+      background-image: url("../Icons/categories/iconmonstr-text.svg");
     }
   }
 
@@ -43,11 +59,7 @@
       display: block;
       background-position: center;
       background-repeat: no-repeat;
-      &.category-development {
-        background-color: green;
-        background-image: url("../Icons/categories/iconmonstr-code.svg");
 
-      }
     }
 
     .task-info{
