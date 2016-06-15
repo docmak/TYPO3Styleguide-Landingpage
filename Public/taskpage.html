@@ -5,6 +5,13 @@
     <title>TYPO3 Marketing Tasks</title>
     <link rel="Stylesheet" href="Styles/main.css">
     <link rel="Stylesheet" href="Styles/taskpage.css">
+
+	<script src="JavaScript/libs.min.js"></script>
+	<script src="node_modules/isotope-layout/dist/isotope.pkgd.min.js"></script>
+	<script src="JavaScript/main.min.js"></script>
+
+
+
 	<link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-touch-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-touch-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-touch-icon-72x72.png">
@@ -91,12 +98,21 @@
 				<div class="col-md-12">
 					<div class="col-border">
 						<h2>Unassigned Tasks</h2>
-						<div class="row">
-							<div class="task col-md-3">
+						<div class="btn-group filters-button-group">
+							<button class="btn typo3 is-checked" data-filter="*">show all</button>
+							<button class="btn typo3" data-filter="categoryMarketing">Marketing</button>
+							<button class="btn typo3" data-filter="categoryDesign">Design</button>
+							<button class="btn typo3" data-filter="categoryText">Text</button>
+							<button class="btn typo3" data-filter="categoryTranslation">Translation</button>
+							<button class="btn typo3" data-filter="categoryDevelopment">Development</button>
+						</div>
+
+						<div class="row grid">
+							<div class="task grid-item col-md-3">
 								<div class="task-info">
 									<div class="task-category category-development"></div>
 									<p class="task-title">
-										Building up a Task Page
+										Building up a Task Page for TYPO3 Marketing Team
 									</p>
 									<p class="task-description">
 										Dies ist die Beschreibung, ich werde versuchen diese Beschreibung in irgendeiner Weise aufzuteilen.
@@ -106,7 +122,7 @@
 								<a href="" target="_blank" class="btn typo3">More Info</a>
 
 							</div>
-							<div class="task col-md-3">
+							<div class="task grid-item col-md-3">
 								<div class="task-info">
 									<div class="task-category category-translation"></div>
 									<p class="task-title">
@@ -120,7 +136,7 @@
 								<a href="" target="_blank" class="btn typo3">More Info</a>
 
 							</div>
-							<div class="task col-md-3">
+							<div class="task grid-item col-md-3">
 								<div class="task-info">
 									<div class="task-category category-marketing"></div>
 									<p class="task-title">
@@ -134,7 +150,7 @@
 								<a href="" target="_blank" class="btn typo3">More Info</a>
 
 							</div>
-							<div class="task col-md-3">
+							<div class="task grid-item col-md-3">
 								<div class="task-info">
 									<div class="task-category category-design"></div>
 									<p class="task-title">
@@ -148,11 +164,11 @@
 								<a href="" target="_blank" class="btn typo3">More Info</a>
 
 							</div>
-							<div class="task col-md-3">
+							<div class="task grid-item col-md-3">
 								<div class="task-info">
 									<div class="task-category category-text"></div>
 									<p class="task-title">
-										Write a Security Whitepaper
+										Write a Security Whitepaper with 2-4 A4 Pages
 									</p>
 									<p class="task-description">
 										Dies ist die Beschreibung, ich werde versuchen diese Beschreibung in irgendeiner Weise aufzuteilen.
