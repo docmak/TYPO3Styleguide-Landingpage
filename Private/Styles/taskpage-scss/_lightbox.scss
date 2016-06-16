@@ -1,0 +1,59 @@
+#taskLightbox{
+  max-width: 600px;
+  .lightbox-task{
+    text-align: left;
+    h2{
+      float: left;
+    }
+    .lightbox-task-category{
+      height: 100px;
+      width: 100px;
+      display: block;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 80%;
+      border-radius: 5px;
+      margin-top: 10px;
+      margin-bottom: 30px;
+      float: right;
+      &.lightbox-category-development{
+        background-color: white;
+        background-image: url("../Icons/categories/iconmonstr-code.svg");
+      }
+      &.category-marketing{
+        background-color: white;
+        background-image: url("../Icons/categories/iconmonstr-speech-bubble.svg");
+      }
+      &.category-translation{
+        background-color: white;
+        background-image: url("../Icons/categories/iconmonstr-language.svg");
+      }
+      &.category-design{
+        background-color: white;
+        background-image: url("../Icons/categories/iconmonstr-paintbrush.svg");
+      }
+      &.category-text{
+        background-color: white;
+        background-image: url("../Icons/categories/iconmonstr-text.svg");
+      }
+    }
+    .lightbox-attachement{
+      width: 40%;
+      float: left;
+      margin: 4%;
+    }
+    .typo3.btn {
+      min-width: 40%;
+      margin: 4%;
+      &.lightbox-head-assign{
+        width: 20%;
+        margin: -20% 0 0 0 ;
+      }
+    }
+    .task-due-date{
+      margin: -7% 0 7% 0;
+    }
+  }
+
+
+}

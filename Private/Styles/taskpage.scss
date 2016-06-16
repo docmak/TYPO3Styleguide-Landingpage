@@ -1,6 +1,8 @@
 @import "Base/Variables";
+@import "Base/node-module-extend/featherlight.min";
 
 @import "taskpage-scss/header";
 @import "taskpage-scss/hero";
 @import "taskpage-scss/content";
 @import "taskpage-scss/tasks";
+@import "taskpage-scss/lightbox";
