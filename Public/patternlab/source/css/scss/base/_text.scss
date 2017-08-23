@@ -1,0 +1,61 @@
+/* Text-Related Elements */ 
+p {
+	margin-bottom: $space;
+    line-height: 130%;
+}
+
+strong, b {
+  font-weight: bold;
+}
+
+/* Blockquote */
+blockquote {
+    font-style:italic;
+    border-left: 5px solid $typo3-orange-light;
+    color: $grey-medium;
+	padding-left: $pad;
+	margin-bottom: $space;
+}
+
+/* Horizontal Rule */ 
+hr {
+	border: 0;
+    height: 1px;
+    background: $grey-light;
+    margin: $space-double 0;
+}
+hr.hr-typo3 {
+	border: 0;
+    height: 1px;
+    background: $typo3-orange;
+    margin: $space-double 0;
+}
+abbr {
+    border-bottom: 1px dotted $gray;
+    cursor: help;
+}
+
+/* Marker */
+
+.mark-typo3 {
+    background-color: $typo3-mark;
+}
+
+/* Small text */
+
+small {
+  font-size: 0.8125rem;
+}
+
+/* Source Code */
+
+code, pre, samp {
+  font-family: "Source Code Pro", "Courier New", Courier, monospace;
+  border-left: 5px solid $grey-superlight;
+  padding-left: 1em;
+}
+
+/* Time */
+time {
+  color: $grey-medium;
+}
